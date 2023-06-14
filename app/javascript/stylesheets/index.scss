@@ -1,0 +1,30 @@
+@import "../stylesheets/application";
+
+$images: ();
+
+section {
+  .container {
+    h2 {
+      font-size: 20px;
+    }
+
+    p {
+      color: blue;
+    }
+  }
+
+  .new {
+    a {
+      color: green;
+       }
+  }
+  @each $image in $images {
+    h2 {
+      color: orange;
+    }
+
+    a {
+      color: purple;
+    }
+  }
+}

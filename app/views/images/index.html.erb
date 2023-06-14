@@ -1,10 +1,19 @@
-<h1>Images#index</h1>
 
-<div>
+<section>
+ <div class="container">
+   <h2>ABOUT Us</h2>
+   <p>Lorem ipsum dolor sit amet,<br>
+   consectetur adipiscing elit. Nunc dictum dui vitae nunc luctus, <br>
+   vel dictum felis congue.</p>
+ </div>
+ <div class="new">
   <%= link_to "新規作成", new_image_path %>
 </div>
+
 <% @images.each do |image| %>
   <h2><%= image.name %></h2>
   <%= link_to "詳細", image_path(image) %>
   <%= link_to "削除", image_path(image), method: :delete %>
 <% end %>
+</section>
+

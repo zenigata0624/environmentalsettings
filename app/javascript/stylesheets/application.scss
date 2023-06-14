@@ -1,0 +1,26 @@
+body {
+  background-image: url('~images/VK4-unsplash.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  header{
+    h1{
+      color: red;
+    }
+    nav {
+      ul {
+        li{
+          a{
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    p{
+      text-align: center;
+    }
+  }
+}
