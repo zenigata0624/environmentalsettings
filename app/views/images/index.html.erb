@@ -11,6 +11,10 @@
   <%= link_to "新規作成", new_image_path %>
 </div>
 
+
+
+
+
 <% @images.each do |image| %>
   <h2><%= image.name %></h2>
   <%= link_to "詳細", image_path(image) %>
